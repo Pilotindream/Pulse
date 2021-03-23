@@ -1,0 +1,21 @@
+@import 'base/variables';
+
+* {
+    font-family: 'Museo Sans';
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/pros';
+@import 'media/promo(header)_media';
+@import 'media/pros_media';

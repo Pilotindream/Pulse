@@ -1,0 +1,45 @@
+.pros {
+    min-height: 473px;
+    background-color: #f6f6f6;
+    padding: 73px 0 83px 0;
+    &__header {
+        font-weight: 700;
+        font-size: 30px;
+        color: #0D0D0D;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-top: 60px;
+    }
+    &__item {
+        max-width: 277px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__subtitle {
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+        margin-top: 35px;
+    }
+    &__txt {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        margin-top: 20px;
+        span {
+            color: $main-color;
+        }
+    }
+}
