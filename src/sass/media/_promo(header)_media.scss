@@ -2,8 +2,9 @@
     .header {
         justify-content: space-around;
         &__logo {
+			width: 189px;
             img {
-                width: 90%;
+                width:100%;
             }
         }
     }
@@ -76,6 +77,11 @@
         }
     }
     .promo {
+		&__wrapper {
+			margin-top: 60px;
+			text-align: center;
+		}
+
         &__subheader {
             font-size: 21px;
         }
