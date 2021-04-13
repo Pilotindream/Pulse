@@ -1,8 +1,56 @@
 @media (max-width: 900px) {
     .carousel {
-        .slick-prev, .slick-next {
-            display: block;
-            display: none;
+        padding: 60px 0 40px 0;
+        &__inner {
+            width: 70%;
         }
+        .slick-slide {
+            img {
+                width: 100%;
+            }
+        }
+        .slick-dots {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .slick-active {
+                button {
+                    background-color: black;
+                }
+            }
+            li {
+                list-style-type: none;
+                z-index: 1;
+                margin-right: 15px;
+                button {
+                    border-radius: 100%;
+                    font-size: 0px;
+                    width: 11px;
+                    height: 11px;
+                    display: block;
+                    border: none;
+                    background-color: #CFBDBA;
+                    z-index: 1;
+                    padding: 0;
+                }
+            }
+                
+        }
+    }
+}
+@media (max-width: 767px) {
+    .carousel {
+        .slick-dots {
+            height: 20px;
+            margin: 0;
+            li {
+                button {
+                    width: 8px;
+                    height: 8px;
+                }
+            }
+        }
+
     }
 }
